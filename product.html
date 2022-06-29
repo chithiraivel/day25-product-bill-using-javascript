@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        th,tr,td{
+            border: 1px solid black;
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+   <table>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Unit Price</th>
+    <th>Price</th>
+        <tr>
+            <td>Bat</td>
+            <td>
+                <select name="" id="select1" onchange="myFirst()">
+
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </td>
+            <td id="price1"><strong>Rs.1000</strong></td>
+            <td id="data1">0</td>
+
+        </tr>
+
+        <tr>
+            <td>Ball</td>
+            <td>
+                <select name="" id="select2" onchange="mySecond()">
+
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </td>
+            <td id="price2"><strong>Rs.20</strong></td>
+            <td id="data2">0</td>
+
+        </tr>
+
+        <tr>
+            <td>Stump</td>
+            <td>
+                <select name="" id="select3" onchange="myThird()">
+
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </td>
+            <td id="price3"><strong>Rs.500</strong></td>
+            <td id="data3">0</td>
+
+        </tr>
+        <tr>
+        <td colspan="3"><strong>Total</strong></td>
+        <td id="total">0</td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><strong>Tax 8%</strong></td>
+            <td id="tax">0</td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><strong>Grand Total</strong></td>
+            <td id="grand">0</td>
+        </tr>
+
+   </table>
+
+
+    <script src="product.js"></script>
+</body>
+</html>
